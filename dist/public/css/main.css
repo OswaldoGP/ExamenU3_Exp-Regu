@@ -1,4 +1,14 @@
 body {
+  background-image: url("/dist/public/img/anime1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+body {
   font-family: Arial, sans-serif;
   background-color: #eef2f7;
   padding: 20px;
