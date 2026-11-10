@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/main.css">
+  <title>exa. Expresiones regulares</title>
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1>Expresiones regulaes</h1>
+    <label for="expresion">Expresion regular (sin diagonales)</label>
+    <input id="expresion" type="text" placeholder="^[a-z]+$">
+    <hr>
+
+    <label for="texto">Texto a comprobar</label>
+    <input id="texto" type="text" placeholder="chetos">
+
+    <button id="btnChecar">Checar</button>
+    <hr>
+    <button id="btnLimpiar">Limpiar</button>
+
+    <div id="respuesta" class="respuesta"></div>
+  
+  </div>
+  
+
+  <script src="bundle.js"></script>
+</body>
+</html>
+
+
